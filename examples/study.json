@@ -1,0 +1,28 @@
+{
+  "name": "Synthetic stress and wellbeing study",
+  "id_column": "participant_id",
+  "outcome": "wellbeing",
+  "exposure": "sleep_hours",
+  "covariates": [
+    "age"
+  ],
+  "scales": [
+    {
+      "name": "stress",
+      "items": [
+        "stress_1",
+        "stress_2",
+        "stress_3",
+        "stress_4",
+        "stress_5"
+      ],
+      "reverse": [
+        "stress_3"
+      ],
+      "minimum": 1,
+      "maximum": 5,
+      "min_answered": 3
+    }
+  ],
+  "seed": 42
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "1",
+  "project": "study-sentinel",
+  "date": "2026-10-19",
+  "repository": "https://github.com/aradmanamnaoon/study-sentinel",
+  "release_status": "prototype",
+  "verified_commit": "d8c7a004a66ed1ee37a69eb17942aa71f5e479ff",
+  "observed_tests": {
+    "passed": 15,
+    "failed": 0,
+    "warnings": 1,
+    "ci_run": "https://github.com/aradmanamnaoon/study-sentinel/actions/runs/39256131889"
+  },
+  "first_party_source_nonblank_noncomment_loc": 331,
+  "source_loc_target": 10000,
+  "source_loc_shortfall": 9669,
+  "notes": [
+    "CI success does not establish scientific validity",
+    "GitHub implementation not guaranteed byte-identical to earlier ZIP",
+    "Dataset examples can be generated locally with CLI",
+    "Statistical and security review incomplete"
+  ]
+}
